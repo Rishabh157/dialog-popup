@@ -68,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+link => https://www.google.com/search?q=how+to+make+a+dialog+box+in+react&oq=how+to+make+a+dialog+box+in+rea&aqs=chrome.1.69i57j0i512j0i22i30l4j0i390l3.16407j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:cbd5d628,vid:sSlwy7WRLTU

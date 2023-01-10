@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from './component/Card';
+import React, { useState } from 'react';
+import "./App.css"
+import Dialog from './component/Dialog';
+import Card2 from './component/Card2';
 
 function App() {
+
+  const [open, setopen] = useState(false)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div
+        className="mt-10 text-center">
+        <button onClick={() => setopen(true)}
+          className="btn">Rajwada</button>
+      </div>
+
+      <Dialog
+        show={open}
+        confirm={() => setopen(false)}
+        component={<Card />}
+      />
+
     </div>
   );
 }
