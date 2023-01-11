@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { useSelector } from "react-redux"
 
 function Card() {
+
+    const value = useSelector(state => state.dialogInpVal.inpVal)
+
     return (
         <>
             <div className="overlay">
@@ -9,7 +13,7 @@ function Card() {
                 <div className="dialog">
 
                     <div className="dialog__content">
-                        <h2 className="dialog__title">Delete a task?</h2>
+                        <h2 className="dialog__title">{value}</h2>
                         <p className="dialog__description">Are you sure you want to delete this task?</p>
                     </div>
 
@@ -28,4 +32,4 @@ function Card() {
     )
 }
 
-export default Card
+export default Card;

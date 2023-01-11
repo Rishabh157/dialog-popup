@@ -862,3 +862,10 @@ body {
   --tw-text-opacity: 1;
   color: rgba(153, 27, 27, var(--tw-text-opacity));
 }
+
+input {
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+  margin-top: 30px;
+}
